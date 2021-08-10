@@ -1,0 +1,77 @@
+.bg-left-gadget{
+    width: 200px;
+    height: 200px;
+    background-image: url(pic/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px 100px;
+    position: absolute;
+    top: 400px;
+}
+.bg-center-gadget{
+    background-image: url(pic/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px 350px;
+}
+.header-mb{
+    margin-bottom: 50px;
+}
+.card-shadow{
+    box-shadow: 2px 5px 40px 1px rgb(241, 234, 234);
+}
+.phone-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.phone-mb{
+    margin-bottom: 50px;
+}
+.laptop-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.laptop-mb{
+    margin-bottom: 100px;
+}
+.button-black{
+    background-color: black;
+    color: white;
+}
+.see-all{
+    color: orange;
+}
+hr{
+    width: 100px;
+    margin: auto;
+    border: 3px solid orange;
+    margin-bottom: 50px;
+}
+.categories-mb{
+    margin-bottom: 80px;
+}
+.categories-height{
+    height: 780px;
+    display: flex;
+    align-items: center;
+}
+
+/*--------------
+ Media Query 
+ -------------*/
+
+ /* Mobile Devices */
+ @media only screen and (max-width:688px){
+    .categories-height{
+        height: 2500px;
+    }
+ }
+
+/* Tablet device */
+@media only screen and (min-width: 688px ) and (max-width: 992px ){
+    .categories-height{
+        height: 3000px;
+    }
+}
